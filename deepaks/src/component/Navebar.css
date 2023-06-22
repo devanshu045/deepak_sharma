@@ -1,0 +1,36 @@
+/* Navbar container */
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Navbar list */
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar list items */
+  li {
+    margin: 0 10px;
+  }
+  
+  /* Navbar links */
+  a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  /* Active link style */
+  a.active {
+    background-color: #333;
+    color: #fff;
+  }
+  
